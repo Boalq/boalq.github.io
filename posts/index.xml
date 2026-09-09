@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Boalq-Blog</title>
+    <title>Posts on Boalq&#39;s Blog</title>
     <link>https://boalq.github.io/posts/</link>
-    <description>Recent content in Posts on Boalq-Blog</description>
+    <description>Recent content in Posts on Boalq&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Sep 2026 12:04:17 +0200</lastBuildDate>
     <atom:link href="https://boalq.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://boalq.github.io/posts/my-first-post/</link>
+      <title>Posting workflow with hugo, github and Obsidian</title>
+      <link>https://boalq.github.io/posts/my-workflow/</link>
       <pubDate>Wed, 09 Sep 2026 12:04:17 +0200</pubDate>
-      <guid>https://boalq.github.io/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;hello-ladies-and-gentleman&#34;&gt;Hello ladies and Gentleman!&lt;/h2&gt;
-&lt;p&gt;This is awesome&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// May I have your attention please!
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://boalq.github.io/posts/my-workflow/</guid>
+      <description>&lt;h2 id=&#34;so-i-wanted-to-start-a-blog-posting-page&#34;&gt;So I wanted to start a blog posting page&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;As everyone does, I first searched on google &amp;ldquo;post blog ultra fast github free&amp;rdquo;. I stumbled on Hugo and really loved the variety of  themes one could Install ect.&lt;/p&gt;
+&lt;h3 id=&#34;the-setup-itself-was-not-quite-hard&#34;&gt;The Setup itself was not quite hard:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting up 2 Repos
+&lt;ul&gt;
+&lt;li&gt;A repo where you would draft and demo your page&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.github.io&lt;/code&gt; repo where it would actually be deployed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Starting a new Hugo Project in the draft repo and setting up a theme&lt;/li&gt;
+&lt;li&gt;Setting up an submodule &lt;code&gt;pub&lt;/code&gt; that would refer to the &lt;code&gt;github.io&lt;/code&gt; repo and deploying final build with &lt;code&gt;hugo -t theme -d pub&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;ok-we-got-the-really-basic-hugo-github-setup-now-how-do-we-it-more-quirky-with-obsidian&#34;&gt;OK we got the really basic Hugo-GitHub setup, now how do we it more quirky with Obsidian&lt;/h4&gt;
+&lt;p&gt;Since hugo and literally any other blog posting frameworks use &lt;code&gt;.MD&lt;/code&gt;, I decided to use my beloved tool Obsidian which I&amp;rsquo;ve used for 1+ year for High-School, Uni and Personal Learning.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
