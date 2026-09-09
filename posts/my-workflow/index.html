@@ -5,23 +5,23 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Posting workflow with hugo, github and Obsidian | Boalq&#39;s Blog</title>
+<title>Posting workflow with hugo, github and Obsidian | Boalq&#39;s HQ</title>
 <meta name="keywords" content="">
-<meta name="description" content="So I wanted to start a blog posting page&hellip;
-As everyone does, I first searched on google &ldquo;post blog ultra fast github free&rdquo;. I stumbled on Hugo and really loved the variety of  themes one could Install ect.
+<meta name="description" content="So I wanted to start a blog page&hellip;
+As everyone does, I first searched on Google &ldquo;post blog ultra fast github free&rdquo;. I stumbled on Hugo and really loved the variety of themes one could install, etc.
 The Setup itself was not quite hard:
 
-Setting up 2 Repos
+Setting up 2 repos:
 
 A repo where you would draft and demo your page
-.github.io repo where it would actually be deployed
+A .github.io repo where it would actually be deployed
 
 
-Starting a new Hugo Project in the draft repo and setting up a theme
-Setting up an submodule pub that would refer to the github.io repo and deploying final build with hugo -t theme -d pub
+Creating a new Hugo project in the draft repo and choosing a theme
+Setting up a submodule pub that would refer to the github.io repo and deploying the final build with hugo -t theme -d pub
 
-OK we got the really basic Hugo-GitHub setup, now how do we it more quirky with Obsidian
-Since hugo and literally any other blog posting frameworks use .MD, I decided to use my beloved tool Obsidian which I&rsquo;ve used for 1&#43; year for High-School, Uni and Personal Learning.">
+OK, we got the really basic Hugo-GitHub setup, now how do we make it more quirky with Obsidian?
+Since Hugo and literally any other blog posting framework use .md, I decided to use my beloved tool Obsidian, which I&rsquo;ve used for 1&#43; years for high school, uni, and personal learning.">
 <meta name="author" content="">
 <link rel="canonical" href="https://boalq.github.io/posts/my-workflow/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
@@ -78,11 +78,26 @@ Since hugo and literally any other blog posting frameworks use .MD, I decided to
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false, theme: 'default' });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const mermaidCodeBlocks = document.querySelectorAll("pre code.language-mermaid");
+    mermaidCodeBlocks.forEach((codeBlock) => {
+      const pre = codeBlock.parentElement;
+      const div = document.createElement("div");
+      div.className = "mermaid";
+      div.textContent = codeBlock.textContent;
+      pre.replaceWith(div);
+    });
+    mermaid.run();
+  });
 </script><meta property="og:url" content="https://boalq.github.io/posts/my-workflow/">
-  <meta property="og:site_name" content="Boalq&#39;s Blog">
+  <meta property="og:site_name" content="Boalq&#39;s HQ">
   <meta property="og:title" content="Posting workflow with hugo, github and Obsidian">
-  <meta property="og:description" content="So I wanted to start a blog posting page… As everyone does, I first searched on google “post blog ultra fast github free”. I stumbled on Hugo and really loved the variety of themes one could Install ect.
-The Setup itself was not quite hard: Setting up 2 Repos A repo where you would draft and demo your page .github.io repo where it would actually be deployed Starting a new Hugo Project in the draft repo and setting up a theme Setting up an submodule pub that would refer to the github.io repo and deploying final build with hugo -t theme -d pub OK we got the really basic Hugo-GitHub setup, now how do we it more quirky with Obsidian Since hugo and literally any other blog posting frameworks use .MD, I decided to use my beloved tool Obsidian which I’ve used for 1&#43; year for High-School, Uni and Personal Learning.">
+  <meta property="og:description" content="So I wanted to start a blog page… As everyone does, I first searched on Google “post blog ultra fast github free”. I stumbled on Hugo and really loved the variety of themes one could install, etc.
+The Setup itself was not quite hard: Setting up 2 repos: A repo where you would draft and demo your page A .github.io repo where it would actually be deployed Creating a new Hugo project in the draft repo and choosing a theme Setting up a submodule pub that would refer to the github.io repo and deploying the final build with hugo -t theme -d pub OK, we got the really basic Hugo-GitHub setup, now how do we make it more quirky with Obsidian? Since Hugo and literally any other blog posting framework use .md, I decided to use my beloved tool Obsidian, which I’ve used for 1&#43; years for high school, uni, and personal learning.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -91,8 +106,8 @@ The Setup itself was not quite hard: Setting up 2 Repos A repo where you would d
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posting workflow with hugo, github and Obsidian">
-  <meta name="twitter:description" content="So I wanted to start a blog posting page… As everyone does, I first searched on google “post blog ultra fast github free”. I stumbled on Hugo and really loved the variety of themes one could Install ect.
-The Setup itself was not quite hard: Setting up 2 Repos A repo where you would draft and demo your page .github.io repo where it would actually be deployed Starting a new Hugo Project in the draft repo and setting up a theme Setting up an submodule pub that would refer to the github.io repo and deploying final build with hugo -t theme -d pub OK we got the really basic Hugo-GitHub setup, now how do we it more quirky with Obsidian Since hugo and literally any other blog posting frameworks use .MD, I decided to use my beloved tool Obsidian which I’ve used for 1&#43; year for High-School, Uni and Personal Learning.">
+  <meta name="twitter:description" content="So I wanted to start a blog page… As everyone does, I first searched on Google “post blog ultra fast github free”. I stumbled on Hugo and really loved the variety of themes one could install, etc.
+The Setup itself was not quite hard: Setting up 2 repos: A repo where you would draft and demo your page A .github.io repo where it would actually be deployed Creating a new Hugo project in the draft repo and choosing a theme Setting up a submodule pub that would refer to the github.io repo and deploying the final build with hugo -t theme -d pub OK, we got the really basic Hugo-GitHub setup, now how do we make it more quirky with Obsidian? Since Hugo and literally any other blog posting framework use .md, I decided to use my beloved tool Obsidian, which I’ve used for 1&#43; years for high school, uni, and personal learning.">
 
 
 <script type="application/ld+json">
@@ -121,12 +136,12 @@ The Setup itself was not quite hard: Setting up 2 Repos A repo where you would d
   "@type": "BlogPosting",
   "headline": "Posting workflow with hugo, github and Obsidian",
   "name": "Posting workflow with hugo, github and Obsidian",
-  "description": "So I wanted to start a blog posting page\u0026hellip; As everyone does, I first searched on google \u0026ldquo;post blog ultra fast github free\u0026rdquo;. I stumbled on Hugo and really loved the variety of themes one could Install ect.\nThe Setup itself was not quite hard: Setting up 2 Repos A repo where you would draft and demo your page .github.io repo where it would actually be deployed Starting a new Hugo Project in the draft repo and setting up a theme Setting up an submodule pub that would refer to the github.io repo and deploying final build with hugo -t theme -d pub OK we got the really basic Hugo-GitHub setup, now how do we it more quirky with Obsidian Since hugo and literally any other blog posting frameworks use .MD, I decided to use my beloved tool Obsidian which I\u0026rsquo;ve used for 1+ year for High-School, Uni and Personal Learning.\n",
+  "description": "So I wanted to start a blog page\u0026hellip; As everyone does, I first searched on Google \u0026ldquo;post blog ultra fast github free\u0026rdquo;. I stumbled on Hugo and really loved the variety of themes one could install, etc.\nThe Setup itself was not quite hard: Setting up 2 repos: A repo where you would draft and demo your page A .github.io repo where it would actually be deployed Creating a new Hugo project in the draft repo and choosing a theme Setting up a submodule pub that would refer to the github.io repo and deploying the final build with hugo -t theme -d pub OK, we got the really basic Hugo-GitHub setup, now how do we make it more quirky with Obsidian? Since Hugo and literally any other blog posting framework use .md, I decided to use my beloved tool Obsidian, which I\u0026rsquo;ve used for 1+ years for high school, uni, and personal learning.\n",
   "keywords": [
     
   ],
-  "articleBody": "So I wanted to start a blog posting page… As everyone does, I first searched on google “post blog ultra fast github free”. I stumbled on Hugo and really loved the variety of themes one could Install ect.\nThe Setup itself was not quite hard: Setting up 2 Repos A repo where you would draft and demo your page .github.io repo where it would actually be deployed Starting a new Hugo Project in the draft repo and setting up a theme Setting up an submodule pub that would refer to the github.io repo and deploying final build with hugo -t theme -d pub OK we got the really basic Hugo-GitHub setup, now how do we it more quirky with Obsidian Since hugo and literally any other blog posting frameworks use .MD, I decided to use my beloved tool Obsidian which I’ve used for 1+ year for High-School, Uni and Personal Learning.\nI made an new vault in the /content folder of my hugo project With that I’ve could use my usual obsidian setup by copying the .obsidian config folder to the /content folder and use it as if it were my usual Note-Taking enviroment.\n",
-  "wordCount" : "194",
+  "articleBody": "So I wanted to start a blog page… As everyone does, I first searched on Google “post blog ultra fast github free”. I stumbled on Hugo and really loved the variety of themes one could install, etc.\nThe Setup itself was not quite hard: Setting up 2 repos: A repo where you would draft and demo your page A .github.io repo where it would actually be deployed Creating a new Hugo project in the draft repo and choosing a theme Setting up a submodule pub that would refer to the github.io repo and deploying the final build with hugo -t theme -d pub OK, we got the really basic Hugo-GitHub setup, now how do we make it more quirky with Obsidian? Since Hugo and literally any other blog posting framework use .md, I decided to use my beloved tool Obsidian, which I’ve used for 1+ years for high school, uni, and personal learning.\nI used the /content folder of my Hugo project as a “new” vault With that, I could use my usual Obsidian setup by copying the .obsidian config folder to the /content folder and use it as if it were my usual note-taking environment.\nHow does it work now? It is an quite easy work-flow:\nflowchart TD A[Create post.md] --\u003e B[Edit in Obsidian] B --\u003e C[Test live demo on localhost] C --\u003e D{Refine?} D -- Yes,It's terrible! --\u003e B D -- Done --\u003e E[Build site into submodule folder] E --\u003e F[Commit changes with Git] Voilà, we have a new blog entry!\nObviously, it doesn’t have to be Obsidian as the Markdown editor of choice, but for people who want to have a nice UI for their editing process like myself, it is really a comfortable experience.\nDoes it cost anything? Nope. GitHub Pages, Hugo, and Obsidian are completely free to use. There are some limitations regarding commercial use, but for non-commercial use, they are completely free.\nDamn, it sounds quite difficult! The hardest part is the initial setup process, but there are some awesome guides out there (for example this guide)! Also, if you want to customize a little bit and add your own flair to your blog page, you will have to read some wikis of your theme/Hugo (it is fun though ;D). Other than those two hurdles, you could follow my workflow-deploy cycle and have a cozy workflow or make your own workflow-deploy cycle that makes sense to you!\nIt is better to start with a shitty page, than not starting at all!\nAnyways,\nThanks for reading :))\n-Boalq\n",
+  "wordCount" : "423",
   "inLanguage": "en",
   "datePublished": "2026-09-09T12:04:17+02:00",
   "dateModified": "2026-09-09T12:04:17+02:00",
@@ -136,7 +151,7 @@ The Setup itself was not quite hard: Setting up 2 Repos A repo where you would d
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Boalq's Blog",
+    "name": "Boalq's HQ",
     "logo": {
       "@type": "ImageObject",
       "url": "https://boalq.github.io/favicon.ico"
@@ -149,7 +164,7 @@ The Setup itself was not quite hard: Setting up 2 Repos A repo where you would d
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="https://boalq.github.io/" accesskey="h" title="Boalq&#39;s Blog (Alt + H)">Boalq&#39;s Blog</a>
+            <a href="https://boalq.github.io/" accesskey="h" title="Boalq&#39;s HQ (Alt + H)">Boalq&#39;s HQ</a>
             <div class="logo-switches">
                 <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
@@ -174,6 +189,11 @@ The Setup itself was not quite hard: Setting up 2 Repos A repo where you would d
             </div>
         </div>
         <ul id="menu" class="menu">
+            <li>
+                <a href="https://boalq.github.io/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -191,25 +211,48 @@ The Setup itself was not quite hard: Setting up 2 Repos A repo where you would d
 
 </div>
   </header> 
-  <div class="post-content md-content"><h2 id="so-i-wanted-to-start-a-blog-posting-page">So I wanted to start a blog posting page&hellip;<a hidden class="anchor" aria-hidden="true" href="#so-i-wanted-to-start-a-blog-posting-page">#</a></h2>
-<p>As everyone does, I first searched on google &ldquo;post blog ultra fast github free&rdquo;. I stumbled on Hugo and really loved the variety of  themes one could Install ect.</p>
+  <div class="post-content md-content"><h2 id="so-i-wanted-to-start-a-blog-page">So I wanted to start a blog page&hellip;<a hidden class="anchor" aria-hidden="true" href="#so-i-wanted-to-start-a-blog-page">#</a></h2>
+<p>As everyone does, I first searched on Google &ldquo;post blog ultra fast github free&rdquo;. I stumbled on Hugo and really loved the variety of themes one could install, etc.</p>
 <h3 id="the-setup-itself-was-not-quite-hard">The Setup itself was not quite hard:<a hidden class="anchor" aria-hidden="true" href="#the-setup-itself-was-not-quite-hard">#</a></h3>
 <ul>
-<li>Setting up 2 Repos
+<li>Setting up 2 repos:
 <ul>
 <li>A repo where you would draft and demo your page</li>
-<li><code>.github.io</code> repo where it would actually be deployed</li>
+<li>A <code>.github.io</code> repo where it would actually be deployed</li>
 </ul>
 </li>
-<li>Starting a new Hugo Project in the draft repo and setting up a theme</li>
-<li>Setting up an submodule <code>pub</code> that would refer to the <code>github.io</code> repo and deploying final build with <code>hugo -t theme -d pub</code></li>
+<li>Creating a new Hugo project in the draft repo and choosing a theme</li>
+<li>Setting up a submodule <code>pub</code> that would refer to the <code>github.io</code> repo and deploying the final build with <code>hugo -t theme -d pub</code></li>
 </ul>
-<h4 id="ok-we-got-the-really-basic-hugo-github-setup-now-how-do-we-it-more-quirky-with-obsidian">OK we got the really basic Hugo-GitHub setup, now how do we it more quirky with Obsidian<a hidden class="anchor" aria-hidden="true" href="#ok-we-got-the-really-basic-hugo-github-setup-now-how-do-we-it-more-quirky-with-obsidian">#</a></h4>
-<p>Since hugo and literally any other blog posting frameworks use <code>.MD</code>, I decided to use my beloved tool Obsidian which I&rsquo;ve used for 1+ year for High-School, Uni and Personal Learning.</p>
+<h4 id="ok-we-got-the-really-basic-hugo-github-setup-now-how-do-we-make-it-more-quirky-with-obsidian">OK, we got the really basic Hugo-GitHub setup, now how do we make it more quirky with Obsidian?<a hidden class="anchor" aria-hidden="true" href="#ok-we-got-the-really-basic-hugo-github-setup-now-how-do-we-make-it-more-quirky-with-obsidian">#</a></h4>
+<p>Since Hugo and literally any other blog posting framework use <code>.md</code>, I decided to use my beloved tool Obsidian, which I&rsquo;ve used for 1+ years for high school, uni, and personal learning.</p>
 <ul>
-<li>I made an new vault in the <code>/content</code> folder of my hugo project</li>
+<li>I used the <code>/content</code> folder of my Hugo project as a &ldquo;new&rdquo; vault</li>
 </ul>
-<p>With that I&rsquo;ve could use my usual obsidian setup by copying the <code>.obsidian</code> config folder to the <code>/content</code> folder and use it as if it were my usual Note-Taking enviroment.</p>
+<p>With that, I could use my usual Obsidian setup by copying the <code>.obsidian</code> config folder to the <code>/content</code> folder and use it as if it were my usual note-taking environment.</p>
+<h3 id="how-does-it-work-now">How does it work now?<a hidden class="anchor" aria-hidden="true" href="#how-does-it-work-now">#</a></h3>
+<p>It is an quite easy work-flow:</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">flowchart TD
+    A[Create post.md] --&gt; B[Edit in Obsidian]
+    B --&gt; C[Test live demo on localhost]
+    C --&gt; D{Refine?}
+    D -- Yes,It&#39;s terrible! --&gt; B
+    D -- Done --&gt; E[Build site into submodule folder]
+    E --&gt; F[Commit changes with Git]
+</code></pre><p><strong>Voilà, we have a new blog entry!</strong></p>
+<p>Obviously, it doesn&rsquo;t have to be Obsidian as the Markdown editor of choice, but for people who want to have a nice UI for their editing process like myself, it is really a comfortable experience.</p>
+<h3 id="does-it-cost-anything">Does it cost anything?<a hidden class="anchor" aria-hidden="true" href="#does-it-cost-anything">#</a></h3>
+<p>Nope. GitHub Pages, Hugo, and Obsidian are completely free to use. There are some limitations regarding commercial use, but for non-commercial use, they are completely free.</p>
+<h3 id="damn-it-sounds-quite-difficult">Damn, it sounds quite difficult!<a hidden class="anchor" aria-hidden="true" href="#damn-it-sounds-quite-difficult">#</a></h3>
+<ul>
+<li>The hardest part is the initial setup process, but there are some awesome guides out there (for example <a href="https://www.youtube.com/watch?v=LIFvgrRxdt4">this</a> guide)!</li>
+<li>Also, if you want to customize a little bit and add your own flair to your blog page, you will have to read some wikis of your theme/Hugo (it is fun though ;D).</li>
+</ul>
+<p>Other than those two hurdles, you could follow my workflow-deploy cycle and have a cozy workflow or make your own workflow-deploy cycle that makes sense to you!</p>
+<p>It is better to start with a shitty page, than not starting at all!</p>
+<p>Anyways,</p>
+<p>Thanks for reading :))</p>
+<p>-Boalq</p>
 
 
   </div>
@@ -222,7 +265,7 @@ The Setup itself was not quite hard: Setting up 2 Repos A repo where you would d
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://boalq.github.io/">Boalq&#39;s Blog</a></span> · 
+        <span>&copy; 2026 <a href="https://boalq.github.io/">Boalq&#39;s HQ</a></span> · 
 
     
     
