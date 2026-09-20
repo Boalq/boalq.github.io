@@ -6,8 +6,15 @@
     <description>Recent content on Boalq&#39;s HQ</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 12:04:17 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 21:34:10 +0200</lastBuildDate>
     <atom:link href="https://boalq.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Roadmap for learning Go</title>
+      <link>https://boalq.github.io/posts/go_roadmap/</link>
+      <pubDate>Sun, 20 Sep 2026 21:34:10 +0200</pubDate>
+      <guid>https://boalq.github.io/posts/go_roadmap/</guid>
+      <description>&lt;p&gt;So I&amp;rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn&amp;rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking &amp;amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Posting workflow with hugo, github and Obsidian</title>
       <link>https://boalq.github.io/posts/my-workflow/</link>
@@ -28,14 +35,6 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;ok-we-got-the-really-basic-hugo-github-setup-now-how-do-we-make-it-more-quirky-with-obsidian&#34;&gt;OK, we got the really basic Hugo-GitHub setup, now how do we make it more quirky with Obsidian?&lt;/h4&gt;
 &lt;p&gt;Since Hugo and literally any other blog posting framework use &lt;code&gt;.md&lt;/code&gt;, I decided to use my beloved tool Obsidian, which I&amp;rsquo;ve used for 1+ years for high school, uni, and personal learning.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://boalq.github.io/posts/go_roadmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://boalq.github.io/posts/go_roadmap/</guid>
-      <description>&lt;h1 id=&#34;my-roadmap-for-learning-go&#34;&gt;My Roadmap for learning Go&lt;/h1&gt;
-&lt;p&gt;So I&amp;rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn&amp;rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking &amp;amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>

@@ -5,10 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Boalq&#39;s HQ</title>
+<title>My Roadmap for learning Go | Boalq&#39;s HQ</title>
 <meta name="keywords" content="">
-<meta name="description" content="My Roadmap for learning Go
-So I&rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn&rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C&#43;&#43; and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason&hellip;">
+<meta name="description" content="So I&rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn&rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C&#43;&#43; and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason&hellip;">
 <meta name="author" content="">
 <link rel="canonical" href="https://boalq.github.io/posts/go_roadmap/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
@@ -65,17 +64,34 @@ So I&rsquo;ve tried out a bunch of different programming languages since my inte
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false, theme: 'default' });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const mermaidCodeBlocks = document.querySelectorAll("pre code.language-mermaid");
+    mermaidCodeBlocks.forEach((codeBlock) => {
+      const pre = codeBlock.parentElement;
+      const div = document.createElement("div");
+      div.className = "mermaid";
+      div.textContent = codeBlock.textContent;
+      pre.replaceWith(div);
+    });
+    mermaid.run();
+  });
 </script><meta property="og:url" content="https://boalq.github.io/posts/go_roadmap/">
   <meta property="og:site_name" content="Boalq&#39;s HQ">
-  <meta property="og:title" content="Boalq&#39;s HQ">
-  <meta property="og:description" content="My Roadmap for learning Go So I’ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn’t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C&#43;&#43; and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason…">
+  <meta property="og:title" content="My Roadmap for learning Go">
+  <meta property="og:description" content="So I’ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn’t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C&#43;&#43; and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason…">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-09-20T21:34:10+02:00">
+    <meta property="article:modified_time" content="2026-09-20T21:34:10+02:00">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Boalq&#39;s HQ">
-  <meta name="twitter:description" content="My Roadmap for learning Go So I’ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn’t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C&#43;&#43; and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason…">
+  <meta name="twitter:title" content="My Roadmap for learning Go">
+  <meta name="twitter:description" content="So I’ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn’t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C&#43;&#43; and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason…">
 
 
 <script type="application/ld+json">
@@ -92,7 +108,7 @@ So I&rsquo;ve tried out a bunch of different programming languages since my inte
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "",
+      "name": "My Roadmap for learning Go",
       "item": "https://boalq.github.io/posts/go_roadmap/"
     }
   ]
@@ -102,17 +118,17 @@ So I&rsquo;ve tried out a bunch of different programming languages since my inte
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "",
-  "name": "",
-  "description": "My Roadmap for learning Go So I\u0026rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn\u0026rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking \u0026amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason\u0026hellip;\n",
+  "headline": "My Roadmap for learning Go",
+  "name": "My Roadmap for learning Go",
+  "description": "So I\u0026rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn\u0026rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking \u0026amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason\u0026hellip;\n",
   "keywords": [
     
   ],
-  "articleBody": "My Roadmap for learning Go So I’ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn’t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking \u0026 CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason…\nSo I wanna learn Go again! Well, I really like to plan out things for my own style and make an overview, so I made a roadmap which you might get inspired by and go try out… or even better, make your own roadmap.\nDisclaimer: I will mostly just take books as learning “blocks”, because I think they help one the most in building up deep knowledge, and I love books.\nThe Roadmap The foundation Foundational Go knowledge Additional Projects I will use “The Go Programming Language” book as my semi-beginner-advanced book to go over syntax and basic Go stuff. Additionally, I will use “Learn Go with Pocket-Sized Projects” as an extra, more hands-on approach to learning various topics about Go and the Go-way to solve problems. Concurrency Go is really famous for its concurrency regarding backend/cloud applications, so learning about Go’s particular strength is, in my opinion, a must-have. So therefore, I want to learn more about concurrent programming itself, and especially with Go. Network Programming Professional Cooler Cover (probably my choice xd) Since I have a big interest in cybersecurity, and therefore also networking, I want to get to know more about networking and also how to do it—you guessed it—with GO! Own interest Yeah, so hacker gopher = cool People say it’s neither a good Go book nor a “hacker” book, but I’m really curious. I’ve also made it into a YT video (appreciate every new subscriber :P) So that’s it… I will post my following Go learning journey on YouTube, LinkedIn, and this blog (so any subscription/follow would be cool :D ).\nTHAT’S IT, BYEEE\n-Boalq\n",
-  "wordCount" : "349",
+  "articleBody": "So I’ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn’t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking \u0026 CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason…\nSo I wanna learn Go again! Well, I really like to plan out things for my own style and make an overview, so I made a roadmap which you might get inspired by and go try out… or even better, make your own roadmap.\nDisclaimer: I will mostly just take books as learning “blocks”, because I think they help one the most in building up deep knowledge, and I love books.\nThe Roadmap The foundation Foundational Go knowledge Additional Projects I will use “The Go Programming Language” book as my semi-beginner-advanced book to go over syntax and basic Go stuff. Additionally, I will use “Learn Go with Pocket-Sized Projects” as an extra, more hands-on approach to learning various topics about Go and the Go-way to solve problems. Concurrency Go is really famous for its concurrency regarding backend/cloud applications, so learning about Go’s particular strength is, in my opinion, a must-have. So therefore, I want to learn more about concurrent programming itself, and especially with Go. Network Programming Professional Cooler Cover (probably my choice xd) Since I have a big interest in cybersecurity, and therefore also networking, I want to get to know more about networking and also how to do it—you guessed it—with GO! Own interest Yeah, so hacker gopher = cool People say it’s neither a good Go book nor a “hacker” book, but I’m really curious. I’ve also made it into a YT video (appreciate every new subscriber :P) So that’s it… I will post my following Go learning journey on YouTube, LinkedIn, and this blog (so any subscription/follow would be cool :D ).\nTHAT’S IT, BYEEE\n-Boalq\n",
+  "wordCount" : "344",
   "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
+  "datePublished": "2026-09-20T21:34:10+02:00",
+  "dateModified": "2026-09-20T21:34:10+02:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://boalq.github.io/posts/go_roadmap/"
@@ -171,16 +187,15 @@ So I&rsquo;ve tried out a bunch of different programming languages since my inte
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      
+      My Roadmap for learning Go
     </h1>
     <div class="post-meta">
 
-
+<span title='2026-09-20 21:34:10 +0200 CEST'>September 20, 2026</span>
 
 </div>
   </header> 
-  <div class="post-content md-content"><h1 id="my-roadmap-for-learning-go">My Roadmap for learning Go<a hidden class="anchor" aria-hidden="true" href="#my-roadmap-for-learning-go">#</a></h1>
-<p>So I&rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn&rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason&hellip;</p>
+  <div class="post-content md-content"><p>So I&rsquo;ve tried out a bunch of different programming languages since my interest in programming sparked, and I couldn&rsquo;t really tell which I liked the most. I really liked the simplicity of Python, but hated its syntax. I really liked the syntax of C/C++ and its low-level power, but hated the linking &amp; CMake. I mean, I have tried Go and liked it very much, but just stopped with Go for no exact reason&hellip;</p>
 <h3 id="so-i-wanna-learn-go-again">So I wanna learn Go again!<a hidden class="anchor" aria-hidden="true" href="#so-i-wanna-learn-go-again">#</a></h3>
 <p>Well, I really like to plan out things for my own style and make an overview, so I made a roadmap which you might get inspired by and go try out&hellip; or even better, <strong>make your own roadmap</strong>.</p>
 <p><strong><em>Disclaimer</em></strong>: I will mostly just take books as learning &ldquo;blocks&rdquo;, because I think they help one the most in building up deep knowledge, and I love books.</p>
