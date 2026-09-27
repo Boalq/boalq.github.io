@@ -6,8 +6,18 @@
     <description>Recent content on Boalq&#39;s HQ</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2026 21:34:10 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 20:00:10 +0200</lastBuildDate>
     <atom:link href="https://boalq.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Ultralearning Project Go &#43; Backend</title>
+      <link>https://boalq.github.io/posts/go_ultra_learning/</link>
+      <pubDate>Sun, 27 Sep 2026 20:00:10 +0200</pubDate>
+      <guid>https://boalq.github.io/posts/go_ultra_learning/</guid>
+      <description>&lt;h2 id=&#34;i-know-i-know&#34;&gt;I know, I know&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;I already have a post where I talked about a Go roadmap, but I fell into a rabbit hole of learning.&lt;/p&gt;
+&lt;p&gt;AND I FOUND THE &lt;a href=&#34;https://www.amazon.de/Ultralearning-Essential-Mastering-Skills-Future-Proofing/dp/006285268X&#34;&gt;ULTRALEARNING BOOK&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I really fell in love with the idea and decided to embark on this journey on my own. That also meant changing my &amp;ldquo;roadmap&amp;rdquo;, because it is more of a project now and about learning a bunch of practices &amp;amp; methods of an &amp;ldquo;Ultralearner&amp;rdquo;. So basically, how to be really intense in short amounts of time, and thus get really impressive results.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Roadmap for learning Go</title>
       <link>https://boalq.github.io/posts/go_roadmap/</link>
