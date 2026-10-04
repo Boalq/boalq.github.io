@@ -6,8 +6,55 @@
     <description>Recent content in Posts on Boalq&#39;s HQ</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 20:00:10 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 15:34:10 +0200</lastBuildDate>
     <atom:link href="https://boalq.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recap of the first week learning go</title>
+      <link>https://boalq.github.io/posts/go-backend_ultralearning_week1/</link>
+      <pubDate>Sun, 04 Oct 2026 15:34:10 +0200</pubDate>
+      <guid>https://boalq.github.io/posts/go-backend_ultralearning_week1/</guid>
+      <description>&lt;p&gt;So I finished the first week of my &lt;a href=&#34;https://boalq.github.io/posts/go_ultra_learning/&#34;&gt;Go + Backend Ultralearning&lt;/a&gt; Project and, to be completely honest, it was not smooth sailing. I&amp;rsquo;m starting off with Go and here is what I have learned.&lt;/p&gt;
+&lt;h2 id=&#34;day-1&#34;&gt;Day 1&lt;/h2&gt;
+&lt;h3 id=&#34;a-plan-which-sounds-good-in-theory--useful-in-practice&#34;&gt;A plan which sounds good in theory != Useful in practice&lt;/h3&gt;
+&lt;p&gt;So my original plan was to:&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Step&lt;/th&gt;
+					&lt;th&gt;Focus&lt;/th&gt;
+					&lt;th&gt;What&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;Recall&lt;/td&gt;
+					&lt;td&gt;Anki reviews&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;Concepts&lt;/td&gt;
+					&lt;td&gt;Read the book materials&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;Procedures&lt;/td&gt;
+					&lt;td&gt;Work on a project&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;Facts&lt;/td&gt;
+					&lt;td&gt;Capture facts to Anki&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;Log&lt;/td&gt;
+					&lt;td&gt;Reflection and TLDR&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This plan had a lot of flaws, which are not that obvious when you are planning. For example:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Ultralearning Project Go &#43; Backend</title>
       <link>https://boalq.github.io/posts/go_ultra_learning/</link>
